@@ -125,7 +125,9 @@ Navigate to the project folder make sure Rspec is installed and then run the fol
 <!-- ### How to play -->
 
 ### Challenges
-1. ![screenshot](https://github.com/IBUNHABIBU/car-rent-booking-api/blob/dev/app/assets/Errors.PNG)
+1. 
+
+![screenshot](https://github.com/IBUNHABIBU/car-rent-booking-api/blob/dev/app/assets/Errors.PNG)
       solution
 
       `bundle config --delete bin`
