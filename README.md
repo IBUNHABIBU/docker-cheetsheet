@@ -132,7 +132,7 @@ Navigate to the project folder make sure Rspec is installed and then run the fol
 
       `bundle config --delete bin`
 
-      `bundle install --binstubs`
+      bundle install --binstubs
 <!-- CONTACT -->
 
 ## Live link
