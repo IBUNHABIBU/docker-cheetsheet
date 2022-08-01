@@ -130,7 +130,7 @@ Navigate to the project folder make sure Rspec is installed and then run the fol
 ![screenshot](https://github.com/IBUNHABIBU/car-rent-booking-api/blob/dev/app/assets/Errors.PNG)
       solution
 
-      `bundle config --delete bin`
+      bundle config --delete bin
 
       bundle install --binstubs
 <!-- CONTACT -->
