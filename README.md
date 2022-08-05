@@ -135,6 +135,14 @@ Navigate to the project folder make sure Rspec is installed and then run the fol
       bundle install --binstubs
 <!-- CONTACT -->
 
+2. Upload image in local was working but not in production
+
+it causes the error undefined cars for nil class
+
+Solution
+I removed the association btn user model and car model
+so instead of @car = current_user.cars.build(car_params)  I used @car = Car.new(car_params)
+
 ## Live link
 
 [Live Demo ](https://final-capstone-rails-api.herokuapp.com/api/v1/cars) of the project

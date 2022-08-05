@@ -59,12 +59,10 @@ ActiveRecord::Schema.define(version: 2022_04_01_144423) do
     t.string "color"
     t.string "engine"
     t.string "year"
-    t.bigint "user_id", null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.string "title"
     t.string "price"
-    t.index ["user_id"], name: "index_cars_on_user_id"
   end
 
   create_table "events", force: :cascade do |t|
@@ -89,5 +87,4 @@ ActiveRecord::Schema.define(version: 2022_04_01_144423) do
   add_foreign_key "active_storage_attachments", "active_storage_blobs", column: "blob_id"
   add_foreign_key "active_storage_variant_records", "active_storage_blobs", column: "blob_id"
   add_foreign_key "bookings", "users"
-  add_foreign_key "cars", "users"
 end
