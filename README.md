@@ -143,6 +143,10 @@ Solution
 I removed the association btn user model and car model
 so instead of @car = current_user.cars.build(car_params)  I used @car = Car.new(car_params)
 
+3. Another cause of blocked by cors
+
+setting enviroment variables in heroku I used 'cat config/master.key' insead of pasting the key
+
 ## Live link
 
 [Live Demo ](https://final-capstone-rails-api.herokuapp.com/api/v1/cars) of the project
