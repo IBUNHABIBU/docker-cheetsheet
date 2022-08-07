@@ -1,8 +1,8 @@
 require 'aws-sdk-s3'
 
 Aws.config.update({
-  region: ENV['AWS_REGION'],
-  credentials: Aws::Credentials.new(ENV['AWS_ACCESS_KEY_ID'], ENV['AWS_SECRET_ACCESS_KEY']),
+  region: 'us-east-2',
+  credentials: Aws::Credentials.new('access_key_id', 'secret_access_key'),
 })
 
-S3_BUCKET = Aws::S3::Resource.new.bucket(ENV['S3_BUCKET'])
+S3_BUCKET = Aws::S3::Resource.new.bucket('rails-api-images')
