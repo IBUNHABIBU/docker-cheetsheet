@@ -7,7 +7,7 @@ module Api
       end
 
       def create
-        booking = current_user.bookings.build(booking_params)
+        booking = Booking.new(booking_params)
         if booking.save
           render json: { appointment: booking, status: :created }
         else
