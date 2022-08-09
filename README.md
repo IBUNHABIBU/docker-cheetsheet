@@ -149,7 +149,7 @@ setting enviroment variables in heroku I used 'cat config/master.key' insead of 
 
 ## Live link
 
-[Live Demo ](https://final-capstone-rails-api.herokuapp.com/api/v1/cars) of the project
+[Live Demo ](https://final-car-rent-api.herokuapp.com/api/v1/cars) of the project
 
 ## Authors
 
