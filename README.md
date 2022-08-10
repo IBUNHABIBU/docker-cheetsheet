@@ -145,7 +145,7 @@ so instead of @car = current_user.cars.build(car_params)  I used @car = Car.new(
 
 3. Another cause of blocked by cors
 
-setting enviroment variables in heroku I used 'cat config/master.key' insead of pasting the key
+setting enviroment variables in heroku I used heroku config:set RAILS_MASTER_KEY = 'cat config/master.key' insead of using the backticks ``
 
 ## Live link
 
