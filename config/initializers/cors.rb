@@ -8,7 +8,7 @@
 Rails.application.config.middleware.insert_before 0, Rack::Cors do 
 
   allow do 
-      origins 'https://salu-final-capstone.herokuapp.com'
+      origins 'salum-microverse-final-capstone.netlify.app'
       # origins 'http://localhost:3000'
       resource "*", headers: :any, methods: [:get, :post, :put, :patch, :delete, :options, :head],
       credentials: true
