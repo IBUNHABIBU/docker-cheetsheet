@@ -49,3 +49,5 @@ end
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
 
 gem 'jsonapi-serializer', '~> 2.2'
+
+gem "cssbundling-rails", "~> 1.1"
