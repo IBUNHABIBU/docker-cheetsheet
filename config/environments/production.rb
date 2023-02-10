@@ -8,7 +8,7 @@ Rails.application.configure do
 
   config.allowed_cors_origins = "*"
 
-  config.assets.compile = true
+  config.assets.compile = false
 
   # Eager load code on boot. This eager loads most of Rails and
   # your application in memory, allowing both threaded web servers
