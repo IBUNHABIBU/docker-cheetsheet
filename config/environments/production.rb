@@ -39,7 +39,6 @@ Rails.application.configure do
   # Serve static assets in production.
   config.public_file_server.enabled = true
   # config.public_file_server.enabled = true
-  config.hosts << "https://web-production-6ac38.up.railway.app/"
 
 
   # Enable serving of images, stylesheets, and JavaScripts from an asset server.
