@@ -149,6 +149,8 @@ so instead of @car = current_user.cars.build(car_params)  I used @car = Car.new(
 
 setting enviroment variables in heroku I used heroku config:set RAILS_MASTER_KEY = 'cat config/master.key' insead of using the backticks ``
 
+`Looks like your app is listening on 127.0.0.1. You may need to listen on 0.0.0.0 instead.`
+
 ## Live link
 
 [Live Demo ](https://final-car-rent-api.herokuapp.com/api/v1/cars) of the project
