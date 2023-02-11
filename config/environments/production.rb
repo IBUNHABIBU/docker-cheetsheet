@@ -131,4 +131,5 @@ Rails.application.configure do
   # config.active_record.database_resolver_context = ActiveRecord::Middleware::DatabaseSelector::Resolver::Session
 end
 
-Rails.application.routes.default_url_options = { host: 'https://final-car-rent-api.netlify.app/' }
+# Rails.application.routes.default_url_options = { host: 'https://final-car-rent-api.netlify.app/' }
+Rails.application.routes.default_url_options = { host: 'https://web-production-6ac38.up.railway.app/' }
