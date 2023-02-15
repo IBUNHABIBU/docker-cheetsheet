@@ -14,6 +14,7 @@ ssh_options[:forward_agent] = true
 
 set :scm, :git
 
+after "deploy", "deploy:cleanup" # keep only the last 5 releases
 
 
 # Default branch is :master
