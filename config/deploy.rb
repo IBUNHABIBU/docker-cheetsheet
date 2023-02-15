@@ -1,8 +1,13 @@
 # config valid for current version and patch releases of Capistrano
 lock "~> 3.17.1"
 
-set :application, "my_app_name"
-set :repo_url, "git@example.com:me/my_repo.git"
+server '143.42.8.246', :app, :web, :db, :primary => true
+set :application, "car-rent-booking-api"
+set :repo_url, "https://github.com/IBUNHABIBU/car-rent-booking-api"
+set :branch, 'dev'
+set :deploy_to, '/home/deploy/car-rent-booking-api'
+set :deploy_via, :remote_cache
+set :use_sudo, false 
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
@@ -18,7 +23,7 @@ set :repo_url, "git@example.com:me/my_repo.git"
 # set :format_options, command_output: true, log_file: "log/capistrano.log", color: :auto, truncate: :auto
 
 # Default value for :pty is false
-# set :pty, true
+set :pty, true
 
 # Default value for :linked_files is []
 # append :linked_files, "config/database.yml", 'config/master.key'
