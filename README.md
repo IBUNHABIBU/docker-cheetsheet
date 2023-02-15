@@ -189,3 +189,5 @@ Credits go to
 ## 📝 License
 
 This project is [MIT](https://opensource.org/licenses/MIT) licensed.
+
+tar -xzvf ruby-3.0.1.tar.gz
