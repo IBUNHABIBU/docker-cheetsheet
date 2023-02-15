@@ -9,6 +9,13 @@ set :deploy_to, '/home/deploy/car-rent-booking-api'
 set :deploy_via, :remote_cache
 set :use_sudo, false 
 
+default_run_options[:pty] = true
+ssh_options[:forward_agent] = true
+
+set :scm, :git
+
+
+
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
 
