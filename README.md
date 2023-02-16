@@ -224,3 +224,4 @@ SECRET_KEY_BASE=a32ff98804872d35673751222a3cd1b3e68d26cf332632408ed70ba559582134
 STRIPE_PUBLIC_KEY=x
 STRIPE_PRIVATE_KEY=y
 # etc...
+git config --global --replace-all remote.origin.url https://IBUNHABIBU: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@github.com/IBUNHABIBU/car-rent-booking-api.git
