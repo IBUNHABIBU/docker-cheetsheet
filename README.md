@@ -215,3 +215,12 @@ server {
     gzip_static on;
   }
 }
+
+DATABASE_URL=postgresql://postgres:Voda#0763@127.0.0.1/car-rent-booking-api_production
+
+RAILS_MASTER_KEY=bb14f52541459ad884773830525882e9
+SECRET_KEY_BASE=a32ff98804872d35673751222a3cd1b3e68d26cf332632408ed70ba559582134ef17bd1e60f6f4cb6faadf3ec840a3375946002f93936c983927e5f86ea8afe8
+
+STRIPE_PUBLIC_KEY=x
+STRIPE_PRIVATE_KEY=y
+# etc...
