@@ -1,8 +1,8 @@
 # config valid for current version and patch releases of Capistrano
 lock "~> 3.17.1"
 
-set :application, "myapp"
-set :repo_url, "git@github.com:username/myapp.git"
+set :application, "car-rent-booking-api"
+set :repo_url, "https://github.com/IBUNHABIBU/car-rent-booking-api.git"
 
 # Deploy to the user's home directory
 set :deploy_to, "/home/deploy/#{fetch :application}"
