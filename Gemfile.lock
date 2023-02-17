@@ -68,7 +68,7 @@ GEM
     airbrussh (1.4.1)
       sshkit (>= 1.6.1, != 1.7.0)
     aws-eventstream (1.2.0)
-    aws-partitions (1.712.0)
+    aws-partitions (1.713.0)
     aws-sdk-core (3.170.0)
       aws-eventstream (~> 1, >= 1.0.2)
       aws-partitions (~> 1, >= 1.651.0)
@@ -282,6 +282,7 @@ DEPENDENCIES
   jsonapi-serializer (~> 2.2)
   listen (~> 3.3)
   mini_magick
+  net-ssh
   pg (~> 1.1)
   puma (~> 5.0)
   rack-cors
