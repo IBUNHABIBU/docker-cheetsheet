@@ -4,7 +4,6 @@
 [![Issues][issues-shield]][issues-url]
 
 <br />
-
 <p align="center">
   <a href="git@github.com:IBUNHABIBU/TZ-social-events-booking.git">
     <p align="center">
