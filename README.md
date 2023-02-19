@@ -191,13 +191,6 @@ Credits go to
 This project is [MIT](https://opensource.org/licenses/MIT) licensed.
 Why this garbage
 
-STRIPE_PUBLIC_KEY=x
-STRIPE_PRIVATE_KEY=y
-
-maria 
-# etc...
-git config --global --replace-all remote.origin.url https://IBUNHABIBU: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@github.com/IBUNHABIBU/car-rent-booking-api.git
-
 ## checking error logs in nginx
 sudo cat /var/log/nginx/error.log|less 
 
