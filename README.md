@@ -197,3 +197,5 @@ sudo cat /var/log/nginx/error.log|less
 sudo nano /tmp/passenger-error-CrijMI.html
 
 sudo nano /tmp/passenger-error-9mdSOH.html
+
+sudo nano /etc/nginx/sites-enabled/ukandablog
