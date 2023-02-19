@@ -189,37 +189,7 @@ Credits go to
 ## 📝 License
 
 This project is [MIT](https://opensource.org/licenses/MIT) licensed.
-
-sudo nano /etc/nginx/sites-enabled/car-rent-booking-api
-
-server {
-  listen 80;
-  listen [::]:80;
-
-  server_name _;
-  root /home/deploy/car-rent-booking-api/current/public;
-
-  passenger_enabled on;
-  passenger_app_env production;
-
-  location /cable {
-    passenger_app_group_name car-rent-booking-api_websocket;
-    passenger_force_max_concurrent_requests_per_process 0;
-  }
-
-  # Allow uploads up to 100MB in size
-  client_max_body_size 100m;
-
-  location ~ ^/(assets|packs) {
-    expires max;
-    gzip_static on;
-  }
-}
-
-DATABASE_URL=postgresql://postgres:Voda#0763@127.0.0.1/car-rent-booking-api_production
-
-RAILS_MASTER_KEY=bb14f52541459ad884773830525882e9
-SECRET_KEY_BASE=a32ff98804872d35673751222a3cd1b3e68d26cf332632408ed70ba559582134ef17bd1e60f6f4cb6faadf3ec840a3375946002f93936c983927e5f86ea8afe8
+Why this garbage
 
 STRIPE_PUBLIC_KEY=x
 STRIPE_PRIVATE_KEY=y
