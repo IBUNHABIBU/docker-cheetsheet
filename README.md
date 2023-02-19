@@ -199,3 +199,42 @@ sudo nano /tmp/passenger-error-CrijMI.html
 sudo nano /tmp/passenger-error-9mdSOH.html
 
 sudo nano /etc/nginx/sites-enabled/ukandablog
+
+less /home/deploy/myapp/current/log/production.log
+
+sudo less /var/log/nginx/error.log
+
+
+server {
+  listen 80;
+  listen [::]:80;
+
+  server_name _;
+  root /home/deployer/ukandablog/current/public;
+
+  passenger_enabled on;
+  passenger_app_env production;
+
+  location /cable {
+    passenger_app_group_name ukandablog_websocket;
+    passenger_force_max_concurrent_requests_per_process 0;
+  }
+
+  # Allow uploads up to 100MB in size
+  client_max_body_size 100m;
+
+  location ~ ^/(assets|packs) {
+    expires max;
+    gzip_static on;
+  }
+}
+
+nano /home/deployer/ukandablog/.rbenv-vars
+
+
+# For Postgres
+DATABASE_URL=postgresql://deployer:Voda#0763@127.0.0.1/ukandablog
+
+RAILS_MASTER_KEY=185ec0308214c2e8c5b910c8d8a1c65f
+
+SECRET_KEY_BASE=016c62d7b454cf92f4fd3b59f1aad8e9a80d6d1ce1633a81cae5260145f68989b9ecca102d1bc9947e886f0dde69c1ca56f98b8c54cdebb77f8c24de1b21ef91
