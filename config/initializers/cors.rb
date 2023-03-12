@@ -8,8 +8,8 @@
 Rails.application.config.middleware.insert_before 0, Rack::Cors do 
 
   allow do 
-      # origins 'salum-microverse-final-capstone.netlify.app'
-      origins 'http://localhost:3006'
+      origins 'salum-microverse-final-capstone.netlify.app'
+      # origins 'http://localhost:3006'
       resource "*", headers: :any, methods: [:get, :post, :put, :patch, :delete, :options, :head],
       credentials: true
   end
