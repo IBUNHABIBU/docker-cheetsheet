@@ -152,7 +152,7 @@ setting enviroment variables in heroku I used heroku config:set RAILS_MASTER_KEY
 
 ## Live link
 
-[Live Demo ](https://final-car-rent-api.herokuapp.com/api/v1/cars) of the project
+[Live Demo ](https://atown-rentals.onrender.com/api/v1/cars) of the project
 
 ## Authors
 
