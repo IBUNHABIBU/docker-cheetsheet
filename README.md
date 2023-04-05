@@ -53,7 +53,7 @@ This is Rails final capstone project is based on an app to book a Car. I have bu
 
 | Endpoint | Description |
 |---------|-------------|
-| `https://final-capstone-rails-api.herokuapp.com/` | baseUrl |
+| `https://atown-rentals.onrender.com/` | baseUrl |
 | `baseUrl/users` | users resource |
 | `baseUrl/logout` | logout |
 | `baseUrl/logged_in` | login |
