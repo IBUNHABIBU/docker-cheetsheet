@@ -63,7 +63,7 @@ This is Rails final capstone project is based on an app to book a Car. I have bu
   
 <h3 align="center"> Entity Relationship Diagram (ERD) </h3>
 
-![screenshot](https://github.com/IBUNHABIBU/car-rent-booking-api/blob/rails-api-setup/app/assets/ERD.png)
+![screenshot](https://github.com/IBUNHABIBU/car-rent-booking-api/blob/main/app/assets/ERD.png)
 
 <!-- BUILD WITH -->
 ## Built With
