@@ -121,6 +121,7 @@ Navigate to the project folder make sure Rspec is installed and then run the fol
 | `rubocop -a` | Fix all the lint errors automatically |
 | `bundle exec rspec` | Run rspec tests |
 | `EDITOR='code --wait' rails credentials:edit` | Edit credentials |
+| `EDITOR='code --wait' rails credentials:edit` | Edit credentials |
 
 <!-- ### How to play -->
 
