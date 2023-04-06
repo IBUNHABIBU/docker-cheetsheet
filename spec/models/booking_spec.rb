@@ -7,7 +7,7 @@ RSpec.describe Booking, type: :model do
       expect(booking.name).to eq('Juma')
     end
 
-    it 'should give a booking email' do
+    it 'should give a booking model' do
       booking.model = 'new model'
       expect(booking.model).to eq('new model')
     end
