@@ -7,7 +7,7 @@ RSpec.describe Car, type: :model do
       expect(car.color).to eq('Red')
     end
 
-    it 'should give a car email' do
+    it 'should give a car model' do
       car.engine = 'v8'
       expect(car.engine).to eq('v8')
     end

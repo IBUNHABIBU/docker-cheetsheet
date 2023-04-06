@@ -5,6 +5,6 @@ FactoryBot.define do
     year { '2021' }
     price { '2300usd' }
     title { 'Cardillac' }
-    user
+    image { Rack::Test::UploadedFile.new('app/assets/Prado.jpg', 'image/jpeg') }
   end
 end
