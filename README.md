@@ -60,6 +60,8 @@ This is Rails final capstone project is based on an app to book a Car. I have bu
 | `baseUrl/api/v1/cars` | cars resource |
 | `baseUrl/api/v1/bookings` | bookings resource |
 
+  ### Test coverage
+  ![screenshot](https://github.com/IBUNHABIBU/car-rent-booking-api/blob/dev/app/assets/cartest.PNG)
   
 <h3 align="center"> Entity Relationship Diagram (ERD) </h3>
 
