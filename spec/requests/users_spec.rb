@@ -10,15 +10,12 @@ RSpec.describe UsersController, type: :controller do
 
     it do
       params = {
-        id: 1,
-        user: {
           name: 'Jon',
           email: 'jondoe@example.com',
           password: 'password'
-        }
       }
       should permit(:name, :email, :password, :password_confirmation)
-        .for(:create, params: params).on(:user)
+        .for(:create, params: params)
     end
   end
 end
