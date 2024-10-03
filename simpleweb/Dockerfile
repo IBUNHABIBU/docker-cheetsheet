@@ -1,8 +1,6 @@
 FROM node:alpine
 
-COPY ./ ./fffgffvgnggggggggg,nmnvxzzg
-
-c v                     fds
+COPY ./ ./
 RUN npm install
 
 CMD ["npm", "start"]
