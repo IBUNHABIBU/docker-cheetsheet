@@ -99,5 +99,14 @@ container maping
 `docker run -p 8080:8080 ibunhabibu/visits`
 
 
+### *********** Section 5 ********************************************
 
+#### *********** Docker-compose ***********************************
 
+running the image
+
+`docker-compose up`
+
+running and building the image
+
+`docker-bompose up --build`
