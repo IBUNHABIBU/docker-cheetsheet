@@ -120,3 +120,7 @@ run containers in background
 stopping containers in docker-compose
 
 `docker-compose down`
+
+Restart policies
+
+"no", always, on-failure, unless-stopped
