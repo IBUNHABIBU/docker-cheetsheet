@@ -103,10 +103,20 @@ container maping
 
 #### *********** Docker-compose ***********************************
 
+Docker compose allow to work with multiple containers at the same time
+
 running the image
 
 `docker-compose up`
 
 running and building the image
 
-`docker-bompose up --build`
+`docker-compose up --build`
+
+run containers in background
+
+`docker-compose up -d`
+
+stopping containers in docker-compose
+
+`docker-compose down`
