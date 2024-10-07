@@ -94,7 +94,9 @@ then docker commit
 ### *********** Section 4 ********************************************
 ## ********************** Making real project with docker **********************
 
+container maping
 
+`docker run -p 8080:8080 ibunhabibu/visits`
 
 
 
