@@ -124,3 +124,7 @@ stopping containers in docker-compose
 Restart policies
 
 "no", always, on-failure, unless-stopped
+
+status with docker compose 
+
+`docker-compose ps`
