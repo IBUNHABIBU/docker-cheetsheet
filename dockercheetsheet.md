@@ -122,4 +122,8 @@ status with docker compose
 
 ### *********** Section 6 ********************************************
 
-#### *********** Production grade workflow ***********************************
+#### *********** Custome docker file ***********************************
+
+Dockerfile.dev
+
+`docker build -f Dockerfile.dev .`
