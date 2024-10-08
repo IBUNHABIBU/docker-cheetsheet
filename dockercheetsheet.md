@@ -1,5 +1,4 @@
 ***** My target is to learn 5 tutorials per day ***************
-#### **************** Section 2 ************************
 
 Running a docker container
 
@@ -59,8 +58,6 @@ remember to type contro+C or D or exit to exit
 
 <-- End of section 2 -->
 
-# ***************** Section 3 ***********************
-
 creating an image from scratch
 
 set of instruction is in the docker file
@@ -91,17 +88,9 @@ then docker commit
 `docker commit -c 'CMD["redis-server"]' id
 
 
-### *********** Section 4 ********************************************
-## ********************** Making real project with docker **********************
-
 container maping
 
 `docker run -p 8080:8080 ibunhabibu/visits`
-
-
-### *********** Section 5 ********************************************
-
-#### *********** Docker-compose ***********************************
 
 Docker compose allow to work with multiple containers at the same time
 
@@ -128,3 +117,9 @@ Restart policies
 status with docker compose 
 
 `docker-compose ps`
+
+
+
+### *********** Section 6 ********************************************
+
+#### *********** Production grade workflow ***********************************
