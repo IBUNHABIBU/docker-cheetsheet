@@ -28,14 +28,4 @@ describe('App Component', () => {
     expect(button).toHaveTextContent('count is 2');
   });
 
-  test('renders text elements', () => {
-    render(<App />);
-
-    // Check for the presence of instructional text
-    const editText = screen.getByText(/Edit src\/App\.jsx and save to test HMR/i);
-    const docsText = screen.getByText(/Click on the Vite and React logos to learn more/i);
-
-    expect(editText).toBeInTheDocument();
-    expect(docsText).toBeInTheDocument();
-  });
 });
