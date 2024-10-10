@@ -134,6 +134,9 @@ Dockerfile.dev
 
 `docker build -f Dockerfile.dev .`
 
+`docker build -f Dockerfile.dev -t ibunhabibu/frontend:latest .`
+
+
 Docker volume
 
  `docker run -p 5173:5173 -v /app/node_modules -v $(pwd):/app ibunhabibu/frontend`
