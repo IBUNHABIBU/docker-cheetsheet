@@ -4,9 +4,13 @@ WORKDIR '/app'
 
 COPY package.json .
 RUN yarn install
+RUN yarn i -g serve
 COPY . .
 
-CMD [ "yarn", "run", "dev" ]
+RUN npm run build
+
+EXPOSE 5173
+CMD [ "yarn", "run", "dev", "serve", "-s", "dist" ]
 
 
 

@@ -17,6 +17,10 @@ Listing the currently running containers
 
 `docker ps`
 
+listing all images
+
+`docker images`
+
 To see all containers that we have ever created
 
 `docker ps --all`
@@ -42,6 +46,8 @@ How to stop a running container
 `docker stop id`
 
 `docker kill id` when stop command failed to work
+
+Note: There is container id and image id
 
 Running redis
 
@@ -127,3 +133,7 @@ status with docker compose
 Dockerfile.dev
 
 `docker build -f Dockerfile.dev .`
+
+Docker volume
+
+ `docker run -p 5173:5173 -v /app/node_modules -v $(pwd):/app ibunhabibu/frontend`
