@@ -147,3 +147,7 @@ See 'docker run --help'.
 
 Solution 
 [link in stack overfow](https://stackoverflow.com/questions/47435418/docker-command-returns-invalid-reference-format)
+
+
+
+ `docker run -p 5173:5173 -v "/app/node_modules" -v "$(pwd):/app" ibunhabibu/frontend`
