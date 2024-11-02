@@ -2,13 +2,10 @@ FROM node:20-alpine
 
 WORKDIR /app
 
-COPY package.json .
+COPY package.json yarn.lock ./
 RUN yarn install
-RUN yarn global add serve
 COPY . .
 
-RUN  yarn run build
-
+# Ensure the server runs in development mode for hot reloading
 EXPOSE 5173
-# CMD [ "yarn", "run", "dev", "serve", "-s", "dist" ]
 CMD ["yarn", "run", "dev"]
