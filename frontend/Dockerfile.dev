@@ -8,4 +8,4 @@ COPY . .
 
 # Ensure the server runs in development mode for hot reloading
 EXPOSE 5173
-CMD ["yarn", "run", "dev"]
+CMD ["npm", "run", "dev"]
