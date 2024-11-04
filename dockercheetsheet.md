@@ -151,3 +151,7 @@ Solution
 
 
  `docker run -p 5173:5173 -v "/app/node_modules" -v "$(pwd):/app" ibunhabibu/frontend`
+
+ If we want to perform other operations in the terminal
+
+ `docker run -dp 3000:3000 ibunhabibu/frontend:latest`
