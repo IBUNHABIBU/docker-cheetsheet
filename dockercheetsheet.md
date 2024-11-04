@@ -76,7 +76,7 @@ ended at the episode 034 the build process in details
 
 tagging an image
 
-`docker build -t id/project-name:latest .`
+`docker build -t id/project-name:latest .`  -t means tag
 
 example
 
