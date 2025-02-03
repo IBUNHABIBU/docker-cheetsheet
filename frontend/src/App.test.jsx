@@ -4,7 +4,7 @@ import { render, screen, fireEvent } from '@testing-library/react';
 import App from './App';
 
 test('renders button with text and handles click', () => {
-  const handleClick = jest.fn(); // Mock function
+  
   render(<Button onClick={handleClick}>Click Me</Button>);
 
   // Check if the button is rendered with the correct text
