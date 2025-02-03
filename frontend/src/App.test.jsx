@@ -3,6 +3,11 @@ import React from 'react';
 import { render, screen, fireEvent } from '@testing-library/react';
 import App from './App';
 
-describe('App', () => {
+describe('App Component', () => {
   
+  test('renders Vite and react logos', () => {
+
+    // check if the vite logo is rendered
+    const viteLogo = 
+  })
 });
