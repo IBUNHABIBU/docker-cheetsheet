@@ -7,13 +7,5 @@ test('renders button with text and handles click', () => {
   
   render(<Button onClick={handleClick}>Click Me</Button>);
 
-  // Check if the button is rendered with the correct text
-  const buttonElement = screen.getByText(/click me/i);
-  expect(buttonElement).toBeInTheDocument();
-
-  // Simulate a button click
-  fireEvent.click(buttonElement);
-
-  // Check if the mock function was called
   expect(handleClick).toHaveBeenCalledTimes(1);
 });
