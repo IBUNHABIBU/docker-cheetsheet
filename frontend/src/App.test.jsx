@@ -13,8 +13,7 @@ describe('App Component', () => {
     const viteLogo = screen.getAllByAltText('Vite logo');
     expect(viteLogo).tobeInTheDocument()
 
-    const viteLogo = screen.getAllByAltText('Vite logo');
+    const reactLogo = screen.getAllByAltText('React logo');
     expect(viteLogo).tobeInTheDocument()
-
   })
 });
