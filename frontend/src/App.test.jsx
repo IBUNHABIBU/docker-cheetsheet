@@ -5,6 +5,7 @@ import App from './App';
 
 describe('App Component', () => {
   
+  // Test 1: Check if the component renders correctly
   test('renders Vite and react logos', () => {
 
     render(<App />)
@@ -16,4 +17,6 @@ describe('App Component', () => {
     const reactLogo = screen.getAllByAltText('React logo');
     expect(viteLogo).tobeInTheDocument()
   })
+
+  // Test 2: 
 });
