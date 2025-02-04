@@ -18,5 +18,11 @@ describe('App Component', () => {
     expect(viteLogo).tobeInTheDocument()
   })
 
-  // Test 2: 
+  // Test 2: check if the initial count is 0
+
+  test('Displays initial count as 0', () => {
+    render(<App />)
+
+    //
+  })
 });
