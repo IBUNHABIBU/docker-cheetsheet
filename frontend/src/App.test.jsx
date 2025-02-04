@@ -7,6 +7,8 @@ describe('App Component', () => {
   
   test('renders Vite and react logos', () => {
 
+    render()
+
     // check if the vite logo is rendered
     const viteLogo = 
   })
