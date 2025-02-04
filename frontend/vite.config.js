@@ -18,4 +18,5 @@ export default defineConfig({
       usePolling: true,  // Add this line for Docker compatibility
     },
    },
+   
 })
