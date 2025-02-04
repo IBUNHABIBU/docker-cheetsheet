@@ -23,6 +23,7 @@ describe('App Component', () => {
   test('Displays initial count as 0', () => {
     render(<App />)
 
-    //
+    // Check if the count is initially 0
+    const 
   })
 });
