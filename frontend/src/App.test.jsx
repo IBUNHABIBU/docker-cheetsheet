@@ -7,9 +7,9 @@ describe('App Component', () => {
   
   test('renders Vite and react logos', () => {
 
-    render()
+    render(<App />)
 
     // check if the vite logo is rendered
-    const viteLogo = 
+    const viteLogo = screen.getAllByAltText('Vite logo');
   })
 });
