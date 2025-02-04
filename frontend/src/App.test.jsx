@@ -24,6 +24,6 @@ describe('App Component', () => {
     render(<App />)
 
     // Check if the count is initially 0
-    const 
+    const countElement = screen.getByText(/count is 0/i);
   })
 });
