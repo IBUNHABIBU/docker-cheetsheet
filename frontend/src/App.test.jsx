@@ -25,5 +25,6 @@ describe('App Component', () => {
 
     // Check if the count is initially 0
     const countElement = screen.getByText(/count is 0/i);
+    expect(countElement).tobeInTheDocument()
   })
 });
