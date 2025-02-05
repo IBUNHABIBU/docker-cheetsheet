@@ -3,6 +3,7 @@ import React from 'react';
 import "@testing-library/jest-dom";
 import { render, screen, fireEvent } from '@testing-library/react';
 import App from './App';
+import { expect } from 'vitest';
 
 describe('App Component', () => {
   
@@ -32,6 +33,7 @@ describe('App Component', () => {
     render(<App />)
 
     // find the button and click it
-    const buttonElement = screen.getByRole('button', { name: /count is/i })
+    const buttonElement = screen.getByRole('button', { name: /count is 1/i })
+    expect(countElement).toBeInTheDocument()
   })
 });
