@@ -23,9 +23,15 @@ describe('App Component', () => {
 
   test('Displays initial count as 0', () => {
     render(<App />)
-
     // Check if the count is initially 0
     const countElement = screen.getByText(/count is 0/i);
     expect(countElement).toBeInTheDocument()
+  })
+
+  test('Increment counnt when the button is clicked', () => {
+    render(<App />)
+
+    // find the button and click it
+    const buttonElement = screen.getByRole('button', { name: /count is/i })
   })
 });
