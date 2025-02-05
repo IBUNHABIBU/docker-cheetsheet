@@ -158,4 +158,4 @@ Solution
 
  Running test on docker container
 
- docker run id npm run test
+ `docker run id npm run test`
