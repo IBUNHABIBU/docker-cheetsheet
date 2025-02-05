@@ -36,7 +36,7 @@ describe('App Component', () => {
     expect(buttonElement).toBeInTheDocument();
     fireEvent.click(buttonElement);
 
-    // const countElement = screen.getByText(/count is 1/i)
-    // expect(countElement).toBeInTheDocument()
+    const countElement = screen.getByText(/count is 1/i)
+    expect(countElement).toBeInTheDocument()
   })
 });
