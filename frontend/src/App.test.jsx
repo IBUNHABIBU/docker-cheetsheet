@@ -31,7 +31,6 @@ describe('App Component', () => {
 
   test('Increment counnt when the button is clicked', () => {
     render(<App />)
-
     // find the button and click it
     const buttonElement = screen.getByRole('button', { name: /count is 1/i })
     expect(countElement).toBeInTheDocument()
