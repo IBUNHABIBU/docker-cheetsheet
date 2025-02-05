@@ -34,7 +34,8 @@ describe('App Component', () => {
     // find the button and click it
     const buttonElement = screen.getByRole('button', { name: /count is 1/i })
     fireEvent.click(buttonElement);
-    
+
+    const countElement = screen.getByText(/count is 1/i)
     expect(countElement).toBeInTheDocument()
   })
 });
