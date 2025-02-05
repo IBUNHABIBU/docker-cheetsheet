@@ -17,7 +17,7 @@ describe('App Component', () => {
     expect(viteLogo).toBeInTheDocument()
 
     const reactLogo = screen.getByAltText(/React logo/i);
-    // expect(reactLogo).toBeInTheDocument()
+    expect(reactLogo).toBeInTheDocument()
   })
 
   // Test 2: check if the initial count is 0
