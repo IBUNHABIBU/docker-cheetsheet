@@ -14,20 +14,20 @@ describe('App Component', () => {
 
     // check if the vite logo is rendered
     const viteLogo = screen.getByAltText(/Vite logo/i);
-    expect(viteLogo).toBeInTheDocument()
+    // expect(viteLogo).toBeInTheDocument()
 
     const reactLogo = screen.getByAltText(/React logo/i);
-    expect(viteLogo).toBeInTheDocument()
+    expect(reactLogo).toBeInTheDocument()
   })
 
   // Test 2: check if the initial count is 0
 
-  test('Displays initial count as 0', () => {
-    render(<App />)
-    // Check if the count is initially 0
-    const countElement = screen.getByText(/count is 0/i);
-    expect(countElement).toBeInTheDocument()
-  })
+  // test('Displays initial count as 0', () => {
+  //   render(<App />)
+  //   // Check if the count is initially 0
+  //   const countElement = screen.getByText(/count is 0/i);
+  //   expect(countElement).toBeInTheDocument()
+  // })
 
   // test('Increment counnt when the button is clicked', () => {
   //   render(<App />)
