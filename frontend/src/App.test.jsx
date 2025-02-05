@@ -22,12 +22,12 @@ describe('App Component', () => {
 
   // Test 2: check if the initial count is 0
 
-  // test('Displays initial count as 0', () => {
-  //   render(<App />)
-  //   // Check if the count is initially 0
-  //   const countElement = screen.getByText(/count is 0/i);
-  //   expect(countElement).toBeInTheDocument()
-  // })
+  test('Displays initial count as 0', () => {
+    render(<App />)
+    // Check if the count is initially 0
+    const countElement = screen.getByText(/count is 0/i);
+    expect(countElement).toBeInTheDocument()
+  })
 
   // test('Increment counnt when the button is clicked', () => {
   //   render(<App />)
