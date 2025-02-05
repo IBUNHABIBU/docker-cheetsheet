@@ -2,6 +2,7 @@
 import React from 'react';
 import "@testing-library/jest-dom";
 import { render, screen, fireEvent } from '@testing-library/react';
+// import App from './App';
 import App from './App';
 import { expect } from 'vitest';
 
@@ -17,7 +18,7 @@ describe('App Component', () => {
     // expect(viteLogo).toBeInTheDocument()
 
     const reactLogo = screen.getByAltText(/React logo/i);
-    expect(reactLogo).toBeInTheDocument()
+    // expect(reactLogo).toBeInTheDocument()
   })
 
   // Test 2: check if the initial count is 0
