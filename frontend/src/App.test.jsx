@@ -14,7 +14,7 @@ describe('App Component', () => {
 
     // check if the vite logo is rendered
     const viteLogo = screen.getByAltText(/Vite logo/i);
-    // expect(viteLogo).toBeInTheDocument()
+    expect(viteLogo).toBeInTheDocument()
 
     const reactLogo = screen.getByAltText(/React logo/i);
     // expect(reactLogo).toBeInTheDocument()
