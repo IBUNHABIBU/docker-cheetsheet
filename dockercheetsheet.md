@@ -159,3 +159,7 @@ Solution
  Running test on docker container
 
  `docker run id npm run test`
+
+ eg `docker run 7812c42ca6c6 npm run test`
+    
+    `docker run -it 7812c42ca6c6 npm run test` to interact with commands
