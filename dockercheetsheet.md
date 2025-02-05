@@ -155,3 +155,7 @@ Solution
  If we want to perform other operations in the terminal
 
  `docker run -dp 3000:3000 ibunhabibu/frontend:latest`
+
+ Running test on docker container
+
+ docker run id npm run test
