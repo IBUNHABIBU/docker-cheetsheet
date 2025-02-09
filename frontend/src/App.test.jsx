@@ -35,7 +35,6 @@ describe('App Component', () => {
     const buttonElement = screen.getByRole('button', { name: /count is 0/i })
     expect(buttonElement).toBeInTheDocument();
     fireEvent.click(buttonElement);
-
     const countElement = screen.getByText(/count is 1/i)
     expect(countElement).toBeInTheDocument()
     
