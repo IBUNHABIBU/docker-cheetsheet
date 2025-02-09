@@ -9,5 +9,5 @@ services:
     volumes:
       - /app/node_modules
       - .:/app
-  tests:
   
+  tests:
