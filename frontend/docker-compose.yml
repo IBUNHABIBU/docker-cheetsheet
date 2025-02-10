@@ -17,4 +17,5 @@ services:
       volumes: 
       - /app/node_modules
       - /.:app
+      
 
