@@ -6,4 +6,5 @@ COPY . .
 RUN npm build
 
 FROM nginx
+COPY from= dest
 
