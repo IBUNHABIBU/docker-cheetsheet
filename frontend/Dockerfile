@@ -5,3 +5,5 @@ RUN npm install
 COPY . .
 RUN npm build
 
+FROM nginx
+
