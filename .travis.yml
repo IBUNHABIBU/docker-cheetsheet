@@ -10,4 +10,4 @@ sript:
 
 deploy: 
     provider: elastic beanstalk
-    region:
+    region: us-west-2
