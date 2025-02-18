@@ -4,3 +4,4 @@ services:
 
 before_install:
   - docker build -t ibunhabibu/frontend -f Dockerfile.dev .
+  
