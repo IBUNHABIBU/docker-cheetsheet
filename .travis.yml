@@ -5,3 +5,6 @@ services:
 before_install:
   - docker build -t ibunhabibu/frontend -f Dockerfile.dev .
 
+sript:
+  - doker run ibunhabibu/frontend npm run test -- --coverage
+
