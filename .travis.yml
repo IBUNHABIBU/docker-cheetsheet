@@ -13,4 +13,4 @@ deploy:
     region: "us-west-2"
     app: "frontend"
     env: "docker env"
-    bucket_name: 
+    bucket_name: "elastic-beanstalk-us-weast-830813344498994"
