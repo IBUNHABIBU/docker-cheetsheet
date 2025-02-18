@@ -11,3 +11,5 @@ sript:
 deploy: 
     provider: elastic beanstalk
     region: us-west-2
+    app: "frontend"
+    
