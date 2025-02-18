@@ -15,3 +15,4 @@ deploy:
     env: "docker env"
     bucket_name: "elastic-beanstalk-us-weast-830813344498994"
     bucket-path: "frontend"
+    
