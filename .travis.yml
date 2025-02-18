@@ -9,3 +9,4 @@ sript:
   - doker run ibunhabibu/frontend npm run test -- --coverage
 
 deploy: 
+  - 
